@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SectionWrapper from "./sectionWrapper";
+import SectionWrapper from "./SectionWrapper";
 import { WORKOUTS } from "../utils/swoldier";
 import { SCHEMES } from "../utils/swoldier";
 import Button from "./Button";
@@ -147,3 +147,4 @@ export default function Generator(props) {
     </SectionWrapper>
   );
 }
+
