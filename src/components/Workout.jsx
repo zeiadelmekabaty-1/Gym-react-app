@@ -1,5 +1,5 @@
 import React from "react";
-import SectionWrapper from "./sectionWrapper";
+import SectionWrapper from "./SectionWrapper";
 import { EXERCISES } from "../utils/swoldier";
 import ExerciseCard from "./ExerciseCard";
 
@@ -21,3 +21,4 @@ export default function Workout(props) {
     </SectionWrapper>
   );
 }
+
